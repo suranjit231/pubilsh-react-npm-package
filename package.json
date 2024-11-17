@@ -1,0 +1,31 @@
+{
+  "name": "@suranjitnamasudra/publish-react-npm",
+  "version": "1.0.2",
+  "description": "create a react npm packages",
+  "main": "dist/MyComponent.js",
+  "files": [
+    "dist",
+    "src/MyComponent.module.css"
+],
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "suranjit",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9"
+  }
+}
